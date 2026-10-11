@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["id","domain","at","kind"],"properties":{"id":{"type":"string"},"domain":{"type":"string"},"at":{"type":"string"},"kind":{"enum":["measured","calculated","estimated","inferred","correction","constraint"]},"value":{"type":["number","null"]},"unit":{"type":["string","null"]}}}

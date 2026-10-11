@@ -1,0 +1,56 @@
+# Private records and derived knowledge (never publish)
+/data/
+/vault/
+/alignment/
+/outputs/
+/reports/
+/imports/
+/archive/
+/tmp/
+/.tmp_docx_review/
+/.publish/
+/.agent/state/
+/.agent/runs/
+/.agent/reports/
+/.agent/runtime/
+/.agent/tools/
+/.agent/storage-map.yaml
+/.agent/policy.yaml
+/.agent/workspace.yaml
+/.agent/wiring.yaml
+/.agent/registration-request.yaml
+/.agent/identity.md
+/.codex/
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*credential*
+*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+*.asc
+id_rsa*
+id_ed25519*
+# Raw documents, databases and exports
+*.sqlite*
+*.db
+*.docx
+*.xlsx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.zip
+*.jsonl
+*.log
+# Build/editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.DS_Store
+desktop.ini
